@@ -1,0 +1,20 @@
+{
+  "name": "Serverless Cobol",
+  "version": "1.0.0",
+  "description": "Cobol on Azure Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jounile/serverless-cobol.git"
+  },
+  "author": "jounile",
+  "license": "MIT",
+  "homepage": "https://github.com/jounile/serverless-cobol",
+  "readme": "README.md",
+  "dependencies": {
+    "cobolscript": "ajlopez/CobolScript"
+  }
+}
