@@ -1,5 +1,5 @@
 {
-  "name": "Serverless Cobol",
+  "name": "ServerlessCobol",
   "version": "1.0.0",
   "description": "Cobol on Azure Functions",
   "main": "index.js",
