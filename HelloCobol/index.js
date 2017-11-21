@@ -17,8 +17,8 @@ module.exports = function (context, req) {
 
     context.res = {
         status: 200,
-        body: logs.join('\n'),
-        headers: { 'Content-Type': 'application/xml' },
+        body: '<h1>' + logs.join('\n') + '</h1>',
+        headers: { 'Content-Type': 'text/html' },
         isRaw: true
     };
 
